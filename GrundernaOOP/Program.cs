@@ -18,7 +18,7 @@ namespace GrundernaOOP
 
             //Räknar omkrets av sfären.
             Sphere sphere = new Sphere();
-            Console.WriteLine(sphere.GetOmkrets(7));//Diameter is 7.
+            Console.WriteLine(sphere.Getcircumference(7));//Diameter is 7.
 
             TriangleClass triangle = new TriangleClass();
             Console.WriteLine(triangle.GetArea(7, 4));//Base is 7 och height is 4.
