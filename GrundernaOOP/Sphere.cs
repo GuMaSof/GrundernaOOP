@@ -14,13 +14,13 @@ namespace GrundernaOOP
             set { _diameter = value; }
         }
 
-        public double circumference;
+        public double cirCumference;
 
         //Calculates the math.
-        public double Getcircumference(int diameter)
+        public double GetCircumference(int diameter)
         {
-            circumference = diameter * Math.PI;
-            return circumference;
+            cirCumference = diameter * Math.PI;
+            return cirCumference;
         }
     }
 }
