@@ -15,7 +15,7 @@ namespace GrundernaOOP
             Circle secondArea = new Circle();
 
             //Here GetArea computes the second parameter.
-            Console.WriteLine(secondArea.GetArea(6)); //Radie-parameter is 6.
+            Console.WriteLine(secondArea.GetArea(6)); //Radius-parameter is 6.
 
             //Calculates circumference.
             Sphere sphere = new Sphere();
