@@ -6,9 +6,6 @@ namespace GrundernaOOP
 {
     internal class TriangleClass
     {
-        private int _base;//Base
-        private int _height;//Height
-
         public int tArea;
         //Method calculates area of a triangle.
         public int GetArea(int baseMeasure, int height)
