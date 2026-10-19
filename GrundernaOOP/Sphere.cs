@@ -6,7 +6,6 @@ namespace GrundernaOOP
 {
     public class Sphere
     {
-        private int _diameter;
         public double cirCumference;
 
         //Calculates the math.
