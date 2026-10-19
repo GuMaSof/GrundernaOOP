@@ -7,12 +7,12 @@ namespace GrundernaOOP
         static void Main(string[] args)
         {
             //First object of Circle class.
-            Circle firstArea = new Circle(5);
+            Circle firstArea = new Circle();
 
             //Here GetArea calculates the first parameter into area.
             Console.WriteLine(firstArea.GetArea(5)); //Radie-parameter is 5.
 
-            Circle secondArea = new Circle(7);
+            Circle secondArea = new Circle();
 
             //Here GetArea computes the second parameter.
             Console.WriteLine(secondArea.GetArea(6)); //Radie-parameter is 6.

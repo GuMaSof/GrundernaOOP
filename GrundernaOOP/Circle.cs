@@ -8,11 +8,6 @@ namespace GrundernaOOP
     {
         private int _radius;
 
-        public Circle (int Radius)
-        {
-            Radius = _radius;
-        }
-
         //Method that calculates area by multiplying radius with itself, and Pi.
         public double GetArea(double area)
         {

@@ -11,18 +11,6 @@ namespace GrundernaOOP
         private int _base;//Base
         private int _height;//Height
 
-        public int Base
-        {
-            get { return _base; }
-            set { _base = value; }
-        }
-
-        public int Height
-        {
-            get { return _height; }
-            set { _height = value; }
-        }
-        //
         public int tArea;
         //Method calculates area of a triangle.
         public int GetArea(int baseMeasure, int height)
