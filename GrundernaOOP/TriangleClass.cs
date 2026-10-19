@@ -17,7 +17,6 @@ namespace GrundernaOOP
             set { _base = value; }
         }
 
-        //Height constructor
         public int Height
         {
             get { return _height; }

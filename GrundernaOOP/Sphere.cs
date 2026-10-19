@@ -15,7 +15,8 @@ namespace GrundernaOOP
         }
 
         public double omkrets;
-        //Räknar ut mattematiken.
+
+        //Calculates the math.
         public double GetOmkrets(int diameter)
         {
             omkrets = diameter * Math.PI;

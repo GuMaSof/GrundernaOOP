@@ -13,7 +13,7 @@ namespace GrundernaOOP
             Radius = _radius;
         }
 
-        //Själva mattematiken utförs inuti denna metod.
+        //Method that calculates area by multiplying radius with itself, and Pi.
         public double GetArea(double area)
         {
             area = _radius * _radius * Math.PI;
