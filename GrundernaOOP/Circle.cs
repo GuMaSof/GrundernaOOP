@@ -8,15 +8,13 @@ namespace GrundernaOOP
     {
         private int _radius;
 
-        public int _Radius
+        public Circle (int Radius)
         {
-            get { return _radius; }
-            set { _radius = value; }
+            Radius = _radius;
         }
 
-        public double area;
         //Själva mattematiken utförs inuti denna metod.
-        public double GetArea()
+        public double GetArea(double area)
         {
             area = _radius * _radius * Math.PI;
             return area;

@@ -8,11 +8,11 @@ namespace GrundernaOOP
         static void Main(string[] args)
         {
             //First object of Circle class.
-            Circle firstArea = new Circle();
+            Circle firstArea = new Circle(5);
             //Here GetArea calculates the first parameter into area.
             Console.WriteLine(firstArea.GetArea(5)); //Radie-parameter är 5.
 
-            Circle secondArea = new Circle();
+            Circle secondArea = new Circle(7);
             //Here GetArea computes the second parameter.
             Console.WriteLine(secondArea.GetArea(6)); //Radie-parameter är 6.
 
