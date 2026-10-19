@@ -13,10 +13,11 @@ namespace GrundernaOOP
             Console.WriteLine(firstArea.GetArea(5)); //Radie-parameter is 5.
 
             Circle secondArea = new Circle(7);
+
             //Here GetArea computes the second parameter.
             Console.WriteLine(secondArea.GetArea(6)); //Radie-parameter is 6.
 
-            //Räknar omkrets av sfären.
+            //Calculates circumference.
             Sphere sphere = new Sphere();
             Console.WriteLine(sphere.GetCircumference(7));//Diameter is 7.
 
