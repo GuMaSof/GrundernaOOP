@@ -7,22 +7,23 @@ namespace GrundernaOOP
         static void Main(string[] args)
         {
             //First object of Circle class.
-            Circle firstArea = new Circle();
+            Circle firstArea = new Circle(5);
 
             //Here GetArea calculates the first parameter into area.
-            Console.WriteLine(firstArea.GetArea(5)); //Radie-parameter is 5.
+            Console.WriteLine(firstArea.GetArea()); //Radie-parameter is 5.
 
-            Circle secondArea = new Circle();
+            Circle secondArea = new Circle(6);
 
             //Here GetArea computes the second parameter.
-            Console.WriteLine(secondArea.GetArea(6)); //Radius-parameter is 6.
+            Console.WriteLine(secondArea.GetArea()); //Radius-parameter is 6.
 
             //Calculates circumference.
-            Sphere sphere = new Sphere();
-            Console.WriteLine(sphere.GetCircumference(7));//Diameter is 7.
+            Sphere sphere = new Sphere(7);//Diameter is 7.
+            Console.WriteLine(sphere.GetCircumference());
 
-            TriangleClass triangle = new TriangleClass();
-            Console.WriteLine(triangle.GetArea(7, 4));//Base is 7 och height is 4.
+            //Base is 7 and height is 4.
+            TriangleClass triangle = new TriangleClass(7, 4);
+            Console.WriteLine(triangle.GetArea());
         }
     }
 }
